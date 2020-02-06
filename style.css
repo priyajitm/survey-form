@@ -1,31 +1,29 @@
 body {
   background-color: brown;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
 }
 #survey-form {
-  display: block;
-  background-color: cadetblue;
+  background-color: cornflowerblue;
+  margin: auto;
+  width: 80%;
   padding: 20px 20px;
 }
 .form-group {
   display: grid;
-  margin-bottom: 10px;
+}
+.form-group label {
+  padding: 10px 0;
+}
+.form-group input[] {
   width: 100%;
 }
-label {
-  margin-bottom: 10px;
+.header {
+  text-align: center;
 }
-.container {
+.submit-button {
   width: 100%;
-  margin: 3.125rem auto 0 auto;
-}
-@media (min-width: 576px) {
-  .container {
-    max-width: 540px;
-  }
-}
-
-@media (min-width: 768px) {
-  .container {
-    max-width: 720px;
-  }
+  margin-top: 10px;
+  line-height: 20px;
+  font-size: 15px;
 }
