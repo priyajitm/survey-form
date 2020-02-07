@@ -1,29 +1,44 @@
 body {
-  background-color: brown;
+  background: url(https://www.iwmbuzz.com/wp-content/uploads/2020/01/about-mohammed-rafi-the-gem-and-his-nostalgic-memories-920x518.jpg)
+    no-repeat center center fixed;
+  background-size: cover;
   font-family: "Times New Roman", Times, serif;
   font-size: 18px;
 }
+.header {
+  text-align: center;
+  justify-content: center;
+}
 #survey-form {
-  background-color: cornflowerblue;
+  background-color: skyblue;
+  opacity: 0.9;
   margin: auto;
   width: 80%;
   padding: 20px 20px;
 }
-.form-group {
-  display: grid;
+label {
+  display: flex;
+  margin: 10px auto;
 }
-.form-group label {
-  padding: 10px 0;
-}
-.form-group input[] {
+textarea {
   width: 100%;
+  margin: 10px 0;
 }
-.header {
-  text-align: center;
-}
-.submit-button {
+.form-control {
   width: 100%;
-  margin-top: 10px;
-  line-height: 20px;
-  font-size: 15px;
+  height: 3em;
+  margin: s;
+}
+.form-group p {
+  margin-bottom: 10px;
+}
+button {
+  width: 100%;
+  margin-top: 20px;
+  height: 30px;
+}
+@media (min-width: 760px) {
+  #survey-form {
+    width: 60%;
+  }
 }
